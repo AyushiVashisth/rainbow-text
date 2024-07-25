@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+const logMessage = (msg, color, backgroundColor) => {
+  console.log(`%c ${msg}`, `color: ${color}; background: ${backgroundColor}`);
+};
 
-function App() {
+const Log = ({ type, message }) => {
+  switch (type) {
+      case 'success':
+          logMessage(message, 'green', ''); 
+          break;
+      case 'danger':
+          logMessage(message, 'red', ''); 
+          break;
+      case 'info':
+          logMessage(message, 'black', 'yellow'); 
+          break;
+      default:
+          logMessage(message, 'black', ''); 
+          break;
+  }
+  return null; 
+};
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+          <Log type="success" message="This is a success message" />
+          <Log type="danger" message="This is a danger message" />
+          <Log type="info" message="This is an info message" />
+      </div>
   );
-}
+};
 
 export default App;

@@ -38,7 +38,7 @@
   "description": "A library to rainbowText your console logs",
   "main": "index.js",
   "devDependencies": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["console log colors", "rainbow text logs"],
+  "author": "Ayushi Vashisth <ayushivashisth22@gmail.com>",
+  "license": "Ayushi"
 }
