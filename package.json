@@ -1,5 +1,5 @@
 {
-  "name": "rainbowtexts",
+  "name": "rainbowtext",
   "version": "1.0.0",
   "description": "A library to rainbow text your console text",
   "main": "src/index.js",
