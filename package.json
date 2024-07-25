@@ -1,6 +1,14 @@
 {
-  "name": "rainbowtext",
+  "name": "@ayushivashisth/rainbowtext",
   "version": "0.1.0",
+  "description": "A library to rainbowText your console logs",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -9,12 +17,6 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -34,9 +36,6 @@
       "last 1 safari version"
     ]
   },
-  "description": "A library to rainbowText your console logs",
-  "main": "index.js",
-  "devDependencies": {},
   "keywords": ["console log colors", "rainbow text logs"],
   "author": "Ayushi Vashisth <ayushivashisth22@gmail.com>",
   "license": "Ayushi"
