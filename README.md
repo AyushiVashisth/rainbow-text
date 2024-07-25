@@ -6,13 +6,13 @@
 ## Install
 
 ```sh
-npm i rainbowtexts
+npm i rainbow-texts
 ```
 
 ## Usage
 
 ```js
-import { Log } from "rainbowtexts";
+import { Log } from "rainbow-texts";
 
 console.log(Log.success('Hello world!'));
 ```
@@ -20,7 +20,7 @@ console.log(Log.success('Hello world!'));
 Rainbow Text comes with an easy to use composable API where you just chain and nest the styles you want.
 
 ```js
-import { Log } from "rainbowtexts";
+import { Log } from "rainbow-texts";
 
 const log = console.log;
 
@@ -42,7 +42,7 @@ Easily define your own themes:
 ```js
 import { useEffect } from "react";
 import "./App.css";
-import { Log } from "rainbowtexts";
+import { Log } from "rainbow-texts";
 
 function App() {
   useEffect(() => {
