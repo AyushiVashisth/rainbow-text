@@ -38,5 +38,8 @@
   },
   "keywords": ["console log colors", "rainbow text logs"],
   "author": "Ayushi Vashisth <ayushivashisth22@gmail.com>",
-  "license": "Ayushi"
+  "license": "Ayushi",
+  "publishConfig": {
+    "access": "public"
+  }
 }
